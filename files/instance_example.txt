@@ -1,0 +1,10 @@
+10 3 -> <number of requirements> <number of scenarios>
+<blank line>
+3 3 4 -> <probability of scenario 1> <probability of scenario 2> <probability of scenario 3> 
+<blank line>
+2 5 7 8 9 10 2 4 5 8 -> <importance of each requirement in scenario 1>
+3 5 6 9 10 4 5 7 8 1 -> <importance of each requirement in scenario 2>
+4 3 1 10 10 8 3 7 8 5 -> <importance of each requirement in scenario 3>
+<blank line>
+4 7 9 10 3 5 6 8 7 2 -> <effort cost of each requirement>
+2 3.5 4.5 5 1.5 2.5 3 4 3.5 2 -> <cost standard deviation of each requirement>

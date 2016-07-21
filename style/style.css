@@ -1,0 +1,145 @@
+h1 {
+    counter-reset: section;}
+    h2.unnumbered:before {content:"";
+    
+}
+
+#tableOfContents{
+    background-color: #F5FAFD /*whitesmoke*/; 
+    border: 1px solid #C9D1D7; 
+    width: 60%;
+}
+
+#abstract{
+    text-align:justify;   
+}
+
+#instancesDefinition{
+    text-align:justify;   
+}
+
+.OLlowerAlpha{
+    list-style-type: lower-alpha;
+}
+
+.ULDecimal{
+    list-style-type: decimal;
+}
+ 
+h2:before {
+    content: counter(section) ". ";
+    counter-increment: section;
+}
+ 
+#keywords{
+    font-weight: bold;
+}
+
+a img{
+    border:0;
+}
+ 
+body{
+    margin: 0px 80px;
+    font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+pre, p, ul, table, h2 {
+    margin-top: 20px; 
+    margin-bottom: 12px; 
+}
+
+h1{ 
+    color: #F79646; 
+    font: 24px  'Lucida Grande', Geneva, Verdana, Arial, sans-serif; 
+    font-weight: bold;
+    color : #376191
+}
+
+h2{
+    color: #F79646; 
+    font: 16px   'Lucida Grande', Geneva, Verdana, Arial, sans-serif; 
+    font-weight: bold;
+} 
+
+h3{ 
+    color: #326fa3; 
+    font: 14px   'Lucida Grande', Geneva, Verdana, Arial, sans-serif; 
+    font-weight: bold;
+}
+
+img{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+a:link {text-decoration: none; color : #376191}
+a:visited {text-decoration: none;  color : #376191}
+a:active {text-decoration: none; color: #376191}
+a:hover {text-decoration: underline} 
+ 
+
+/********************************/
+/*CSS for Tables*/
+table{
+    color:black;
+	font-size: 12px;
+	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
+	font-style: normal;
+    /*border: 1px solid black;*/
+}
+
+.gamma_header{
+    background-color: #376091;
+    color: white;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.gamma_value{
+    background:#F79646;
+    text-align:center;
+    font-weight: bold;
+}
+
+.cell_value{
+    background:#B6DDE8;
+    text-align:center;
+}
+
+/**********************************************/
+/*             Instances Table                */
+/**********************************************/
+
+.instanceColumn{
+    font-weight: bold;
+    width: 200px;
+}
+.filesColumn,.graphColumn{
+    font-weight: bold;
+    text-align: right;
+}
+
+.filesValuesPar{
+    text-align: right;
+    background-color: #B6DDE8;
+}
+
+.filesValuesPar{
+    text-align: right;
+    background-color: #B6DDE8;
+}
+
+.filesValuesImpar{
+    background-color: #DCEFF3;
+    text-align: right;
+}
+
+.instancesValuesPar{
+    background-color: #B6DDE8;
+}
+
+.instancesValuesImpar{
+    background-color: #DCEFF3;
+}
